@@ -57,3 +57,26 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#inspiration {
+  text-align: center;
+  position: relative;
+  top: 15%;
+  padding: 0 20px;
+}
+#quote {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 60px;
+}
+#name {
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 30px;
+  color: #333333;
+  padding-top: 30px;
+}
