@@ -50,7 +50,7 @@ table {
 /**** CSS RESET END ****/
 
 body {
-  background-image: url('/assets/freedom.jpg');
+  background: url('/assets/freedom.jpg');
   width: 100vw;
   height: 100vh;
   background-position: center;
