@@ -82,6 +82,36 @@ body {
   padding-top: 1.875rem;
 }
 
+
+  
+footer {
+  color: #333333;
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  left: 30%;
+  background-color: rgba(215, 207, 206, 0.5);
+  line-height: 25px;
+}
+a {
+  border: 1px solid #333333;
+  padding: 2px;
+  color: blueviolet;
+  background-color: darkgray;
+  text-decoration: none;
+}
+
+#active {
+ color: pink;
+}
+
+a:hover {
+  color: black;
+}
+
 @media (min-width: 798px) {
   #name {
     font-size: 1.25rem;
@@ -92,6 +122,10 @@ body {
   #inspiration {
     top: 15%;
   }
+  footer {
+    width: 20%;
+    left: 40%;
+  }
 }
 
 @media (min-width: 1920px) {
@@ -99,4 +133,3 @@ body {
     top: 10%;
   }
 }
-  
