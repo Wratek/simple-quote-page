@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    font-size: 16px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -61,22 +62,41 @@ body {
 #inspiration {
   text-align: center;
   position: relative;
-  top: 15%;
-  padding: 0 20px;
+  top: 8%;
+  padding: 0 1.25rem;
 }
 #quote {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 40px;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #333333;
-  line-height: 60px;
+  line-height: 3.75rem;
 }
 #name {
   font-family: "Crimson Text", serif;
-  font-size: 20px;
+  font-size: 0.9375rem;
   font-weight: 400;
   font-style: italic;
-  line-height: 30px;
+  line-height: 1.875rem;
   color: #333333;
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
+
+@media (min-width: 798px) {
+  #name {
+    font-size: 1.25rem;
+  }
+  #quote {
+    font-size: 2.5rem;
+  }
+  #inspiration {
+    top: 15%;
+  }
+}
+
+@media (min-width: 1920px) {
+  #inspiration {
+    top: 10%;
+  }
+}
+  
